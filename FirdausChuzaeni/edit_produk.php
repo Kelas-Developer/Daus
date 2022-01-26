@@ -68,7 +68,7 @@
         <center>
             <h1>Edit Produk <?php echo $data['nama_produk']; ?></h1>
         </center>
-        <form menthod="POST"action="proses_edit.php" enctype="multipart/form-data"></form>
+        <form menthod="POST"action="proses_edit.php" enctype="multipart/form-data">
         <section class="base">
             <input name="id" value="<?php echo $data['id']; ?>" hidden />
         <div>
@@ -93,8 +93,8 @@
             <input type="file" name="gambar_produk" />
             <i style="float: left;font-size: 11px;color: red">Abaikan jika tidak merubah gambar produk</i>
         </div>
-        <div>
-            <button type="submit">Simpan Perubahan</button>
+        <<div> 
+            <button type="submit">Simpan Produk</button> 
         </div>    
         </section>
         </form>
